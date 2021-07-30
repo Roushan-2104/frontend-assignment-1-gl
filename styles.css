@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+}
+#outer {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 29%;
+  text-align: center;
+  margin: 20px 20px;
+  position: relative;
+  top: 50%;
+  left: 30%;
+  padding: 10px 10px;
+}
+h3 {
+  border-bottom: 1.5px solid #ccc;
+  padding-bottom: 8px;
+  font-size: 110%;
+  font-weight: normal;
+}
+
+.input {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 10px 10px;
+  width: 91%;
+  resize: none;
+}
+.input:focus{
+  outline: 0;
+  border-color: rgb(175, 173, 173);
+
+}
+#btn {
+  margin-top: 15px;
+  width: 97%;
+  border: 1px solid rgba(204, 204, 204, 0.411);
+  color: rgba(0, 0, 0, 0.712);
+  font-size: 18px;
+  background-color: rgba(204, 204, 204, 0.411);
+  padding: 8px 8px;
+  margin-bottom: 15px;
+}
+#btn:hover {
+  background-color: rgba(204, 204, 204, 0.616);
+  cursor: pointer;
+  font-weight: bold;
+}
+#btn:active {
+  background-color: rgba(204, 204, 204, 0.74);
+  cursor: pointer;
+}
+#inner {
+  border-top: 1.5px solid #ccc;
+}
+#inner1 {
+  text-align: left;
+}
+#link {
+  display: inline-block;
+  margin-top: 10px;
+}
+#invite {
+  position: relative;
+  top: -5px;
+  margin-left: 5px;
+}
+.invite {
+  position: relative;
+  top: -5px;
+  margin-left: 40%;
+}
+#foot {
+  margin-top: 3px;
+}
