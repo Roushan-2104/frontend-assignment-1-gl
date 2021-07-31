@@ -32,7 +32,7 @@ h3 {
 }
 .input:focus{
   outline: 0;
-  border-color: rgb(175, 173, 173);
+  border-color:#908989;
 
 }
 #btn {
